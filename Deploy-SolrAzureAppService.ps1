@@ -58,6 +58,9 @@ $xml.DocumentElement.AppendChild($field)
 $xml.Save($path)
 
 $sitecoreCores = @(
+	"CatalogItemsScope",
+	"CustomersScope",
+	"OrdersScope",
 	"sitecore_analytics_index", 
     "sitecore_core_index", 
     "sitecore_fxm_master_index", 
@@ -69,6 +72,8 @@ $sitecoreCores = @(
 	"sitecore_marketingdefinitions_web", 
     "sitecore_master_index", 
 	"sitecore_suggested_test_index", 
+	"sitecore_sxa_master_index",
+	"sitecore_sxa_web_index"
 	"sitecore_testing_index", 
 	"sitecore_web_index", 
     "social_messages_master", 
