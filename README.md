@@ -6,7 +6,7 @@ This technique is **not recommended** for production instances. The ideal use-ca
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-Install Solr as an App Service in about 10 minutes preconfigured for Sitecore 8.2u7+. Click the button above and follow the prompts. Be sure to select the proper Solr Version for your Sitecore installation (https://kb.sitecore.net/articles/227897). Once this deployment completes, all prerequisites for Sitecore are in place. You may run quick start templates or install directly from "Sitecore Experience Cloud" Azure resource and provide the Solr link, e.g. https://myappservice.dev.azure.net/solr. Full credit goes to Dan Cruickshank. His guide was used as the basis for this one-click deployment:
+Install Solr as an App Service in about 10 minutes preconfigured for Sitecore 9+. This includes the cores for XC and XM too. Click the button above and follow the prompts. Be sure to select the proper Solr Version for your Sitecore installation (https://kb.sitecore.net/articles/227897). Once this deployment completes, all prerequisites for Sitecore are in place. You may run quick start templates or install directly from "Sitecore Experience Cloud" Azure resource and provide the Solr link, e.g. https://myappservice.dev.azure.net/solr. Full credit goes to Dan Cruickshank. His guide was used as the basis for this one-click deployment:
 
 https://getfishtank.ca/blog/installing-solr-app-service-in-sitecore-azure-paas
 
